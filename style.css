@@ -1,23 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
  /* TITILE ----------------------------------*/
-.title h1{
+.title{
     text-align: center;
-    font-size: 45px;
-    padding-top: 20px;
-}
-/* FLEX-CONTAINER ----------------------------------*/
-.flex-container {
-    display: flex;
-    padding-top: 20px;
-}
-.flex-container h1 {
-    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.flex-child {
-    flex: 1;
-    border: 2px solid black;
-}  
+ /* DATE ----------------------------------*/
+.date{
+    background-color: #36b13c;
+    font-family: 'Open Sans', sans-serif;
+}
 
-.flex-child:first-child {
-    margin-right: 20px;
-} 
+
+/*----FOOTER-----------------------------------------------------------------   #aebfae*/
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgb(27, 28, 27) 0px 5px 15px;
+    background-color: #36b13c;
+    color: #121312;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer p{
+    color: #121312;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer a {
+    color: #121312;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
