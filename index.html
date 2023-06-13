@@ -11,13 +11,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="title">
-            <img src="./Imagens/BeOrganized.png" width="530" height="110px">
-            <h1 class="date" id="current_date"></h1>
+        <div class="flex-container">
+            <div class="title">
+                <img src="./Imagens/BeOrganized.png" width="550" height="110px">
+            </div>
+            <div class="time">
+                <p id="current_time"></p>
+            </div>
+            <div class="date">
+                <p id="current_date"></p>
+            </div>
         </div>
-
-        <div>
-            <h1 class="date" id="current_date"></h1>
+        <div class="flex-container-content">
+            <div class="tasks">
+                <h2> My tasks</h2>
+            </div>
+            <div class="annotation">
+                <h2>Annotation</h2>
+            </div>
         </div>
 
         <script src="script.js"></script>
