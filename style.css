@@ -1,40 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
+/* FLEX-CONTAINER -----------------------------------------------*/
+.flex-container {
+    display: flex;
+    padding-bottom: 15px;
+}
+.date p{
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid #36b13c;
+    font-size: 30px;
+    background-color: #36b13c;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
- /* TITILE ----------------------------------*/
+.time p{
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid #36b13c;
+    font-size: 30px;
+    background-color: #36b13c;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .title{
-    text-align: center;
-    padding-top: 10px;
+    border-color: black;
+    margin-left: 400px;
+    margin-right: 50px;
+}
+/* FLEX-CONTAINER CONTENT -----------------------------------------------*/
+.flex-container-content{
+    display: flex;
+    justify-content: center;
     padding-bottom: 10px;
 }
 
- /* DATE ----------------------------------*/
-.date{
-    background-color: #36b13c;
+.flex-container-content > div {
+    background-color: #f1f1f1;
+    padding: 10px 0px 30px 0px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 8px;
+    border-color: #36b13c;
+    border: 3px solid #36b13c;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ade0b0;
+}
+.tasks h2{
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
+.annotation h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
 
-/*----FOOTER-----------------------------------------------------------------   #aebfae*/
+/*----FOOTER-----------------------------------------------------------------*/
 .footer{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: rgb(27, 28, 27) 0px 5px 15px;
     background-color: #36b13c;
-    color: #121312;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
 .footer p{
-    color: #121312;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
 }
 .footer a {
-    color: #121312;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
