@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="style.css">
         <!--<link rel="icon" type="image/x-icon" href="./Imagens/myicon.png"> -->
         <script src="https://kit.fontawesome.com/6f1061abed.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -24,7 +25,18 @@
         </div>
         <div class="flex-container-content">
             <div class="tasks">
-                <h2> My tasks</h2>
+                <div class="to-do">
+                    <div class="header">
+                        <h2> My tasks</h2>
+                        <button><i class='bx bxs-trash-alt'></i></button>
+                    </div>
+                    <br/>
+                    <div class="divInsert">
+                        <input class="textInsert" placeholder="What do you need to do?"type="text"/>
+                        <button><i class='bx bx-plus'></i></button>
+                    </div>
+                    <ul></ul>
+                  </div>
             </div>
             <div class="annotation">
                 <h2>Annotation</h2>
