@@ -84,3 +84,106 @@
 .footer a:hover{
     text-decoration: underline;
 }
+
+/*----TO DO LIST-----------------------------------------------------------------*/
+
+button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.header button {
+    background-color: #e00000;
+    color: white;
+    margin-left: 80%;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+ 
+} 
+  
+.bx-plus {
+    font-size: 30px;
+    background-color: #36b13c;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 3px;
+}
+
+.divLi i {
+    font-size: 20px;
+    background-color: #e00000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+  
+.to-do {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+  
+.textInsert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+}
+  
+.divInsert {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px grey;
+}
+  
+.divLi {
+    margin-top: 20px;
+    padding: 10px;
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
+    display: flex;
+    align-items: center;
+}
+  
+.divLi span {
+    width: 80%;
+    color: black;
+}
+  
+.divLi input {
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+}
+  
+li {
+    list-style-type: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+  
+@media (max-width: 775px) {
+    input {
+      width: 70%;
+    }
+}
