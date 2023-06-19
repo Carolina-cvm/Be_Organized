@@ -50,11 +50,17 @@
 .tasks h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    width: 89%;
 }
 
 .annotation h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+}
+
+.annotation textarea{
+    margin-left: 50px;
+    margin-bottom: 15px;
 }
 
 /*----FOOTER-----------------------------------------------------------------*/
@@ -95,10 +101,13 @@ button {
     outline: none;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+}
 .header button {
     background-color: #e00000;
     color: white;
-    margin-left: 80%;
     border-radius: 5px;
     font-size: 20px;
     padding: 5px;
@@ -133,8 +142,9 @@ ul {
 }
   
 .to-do {
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 60px;
+    align-self: auto;
 }
   
 .textInsert {
@@ -142,7 +152,7 @@ ul {
     padding: 10px;
     border-radius: 10px;
     outline: none;
-    width: 90%;
+    width: 100%;
 }
   
 .divInsert {
@@ -164,7 +174,7 @@ ul {
 }
   
 .divLi span {
-    width: 80%;
+    width: 100%;
     color: black;
 }
   
