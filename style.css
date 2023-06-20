@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-/* FLEX-CONTAINER -----------------------------------------------*/
-.flex-container {
+/* HEADER -----------------------------------------------*/
+.header {
     display: flex;
     padding-bottom: 15px;
 }
@@ -24,33 +24,32 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.title{
+.title-header{
     border-color: black;
     margin-left: 400px;
     margin-right: 50px;
 }
-/* FLEX-CONTAINER CONTENT -----------------------------------------------*/
-.flex-container-content{
+/* FLEX-CONTAINER -----------------------------------------------*/
+
+.flex-container{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
 
-.flex-container-content > div {
-    background-color: #f1f1f1;
+.flex-container > div {
     padding: 10px 0px 30px 0px;
     margin: 5px;
     width: 100%;
     border-radius: 8px;
-    border-color: #36b13c;
-    border: 3px solid #36b13c;
+    border: 3px solid #ade0b0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #ade0b0;
 }
 .tasks h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    width: 89%;
+    width: 100%;
 }
 
 .annotation h2{
@@ -59,37 +58,19 @@
 }
 
 .annotation textarea{
-    margin-left: 50px;
+    margin-left: 35px;
     margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    font-size: 16px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
 }
 
-/*----FOOTER-----------------------------------------------------------------*/
-.footer{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: rgb(27, 28, 27) 0px 5px 15px;
-    background-color: #36b13c;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-.footer p{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-}
-.footer a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-}
-.footer a:hover{
-    text-decoration: underline;
-}
 
 /*----TO DO LIST-----------------------------------------------------------------*/
 
@@ -101,17 +82,19 @@ button {
     outline: none;
 }
 
-.header{
+.title-flex-container{
     display: flex;
     align-items: center;
 }
-.header button {
+
+.title-flex-container button {
     background-color: #e00000;
     color: white;
     border-radius: 5px;
     font-size: 20px;
     padding: 5px;
- 
+    margin-left: 45px;
+    margin-right: 5px;
 } 
   
 .bx-plus {
@@ -153,6 +136,7 @@ ul {
     border-radius: 10px;
     outline: none;
     width: 100%;
+    font-size: 15px;
 }
   
 .divInsert {
@@ -176,6 +160,7 @@ ul {
 .divLi span {
     width: 100%;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 .divLi input {
@@ -196,4 +181,32 @@ li {
     input {
       width: 70%;
     }
+}
+
+/*----FOOTER-----------------------------------------------------------------*/
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgb(27, 28, 27) 0px 5px 15px;
+    background-color: #36b13c;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer p{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer a:hover{
+    text-decoration: underline;
 }
