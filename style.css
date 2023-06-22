@@ -50,6 +50,7 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     width: 100%;
+    margin-left: 50px;
 }
 
 .annotation h2{
@@ -94,7 +95,7 @@ button {
     font-size: 20px;
     padding: 5px;
     margin-left: 45px;
-    margin-right: 5px;
+    margin-right: 7px;
 } 
   
 .bx-plus {
