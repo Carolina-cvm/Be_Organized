@@ -215,7 +215,14 @@ li {
 
 /*----CALENDAR-----------------------------------------------------------------*/
 
-.bode{
+.all{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.corpo{
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -227,6 +234,7 @@ li {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    margin-bottom: 15px;
 }
 
 .wrapper header{
@@ -264,6 +272,8 @@ header .icons span:hover{
 header .current-date{
     font-size: 1.45rem;
     font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 .calendar{
@@ -282,9 +292,10 @@ header .current-date{
 }
 
 .calendar li{
-    color: #333;
+    color: black;
     width: calc(100% / 7);
     font-size: 1.07rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .calendar .weeks li{
