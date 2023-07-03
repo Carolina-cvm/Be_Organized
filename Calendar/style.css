@@ -16,7 +16,7 @@ body{
   width: 450px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .wrapper header{
   display: flex;
