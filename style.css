@@ -28,6 +28,7 @@
     border-color: black;
     margin-left: 400px;
     margin-right: 50px;
+    margin-bottom: 35px;
 }
 /* FLEX-CONTAINER -----------------------------------------------*/
 
@@ -42,9 +43,9 @@
     margin: 5px;
     width: 100%;
     border-radius: 8px;
-    border: 3px solid #ade0b0;
+    border: 3px solid #36b13c;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #ade0b0;
+    background-color: #36b13c;
 }
 .tasks h2{
     text-align: center;
@@ -186,7 +187,7 @@ li {
 /*----CALENDAR-----------------------------------------------------------------*/
 .calendar{
     text-align: right;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
     margin-right: 70px;
 }
