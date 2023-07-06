@@ -1,11 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* HEADER -----------------------------------------------*/
 .header {
     display: flex;
     padding-bottom: 15px;
+    text-align: center;
 }
+
+.header > div{
+    margin-right: 15px;
+}
+
 .date p{
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid #36b13c;
+    font-size: 30px;
+    background-color: #36b13c;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.link-task p{
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid #36b13c;
+    font-size: 30px;
+    background-color: #36b13c;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.link-annotation p{
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid #36b13c;
+    font-size: 30px;
+    background-color: #36b13c;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.link-calendar p{
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid #36b13c;
+    font-size: 30px;
+    background-color: #36b13c;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.link-contato p{
     font-family: 'Open Sans', sans-serif;
     border: 5px solid #36b13c;
     font-size: 30px;
@@ -20,15 +63,14 @@
     font-size: 30px;
     background-color: #36b13c;
     border-radius: 5px;
-    margin-right: 15px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.title-header{
+.logo{
     border-color: black;
     margin-left: 400px;
     margin-right: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 400px;
 }
 /* FLEX-CONTAINER -----------------------------------------------*/
 
@@ -49,20 +91,20 @@
 }
 .tasks h2{
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     margin-left: 50px;
 }
 
 .annotation h2{
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .annotation textarea{
     margin-left: 35px;
     margin-bottom: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 7px;
     font-size: 16px;
     border-width: 0px;
@@ -162,7 +204,7 @@ ul {
 .divLi span {
     width: 100%;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
   
 .divLi input {
@@ -186,10 +228,10 @@ li {
 }
 /*----CALENDAR-----------------------------------------------------------------*/
 .calendar{
-    text-align: right;
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-right: 70px;
+    margin-left: 70px;
 }
 
 iframe{
@@ -208,7 +250,8 @@ iframe{
     color: black;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .footer p{
     color: black;
