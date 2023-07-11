@@ -116,6 +116,21 @@
     outline: none;
 }
 
+.tasks-text p{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    font-size: 18px;
+    padding-top: 50px;
+
+}
+
+.annotation-text p{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
 /*----TO DO LIST-----------------------------------------------------------------*/
 
 button {
