@@ -1,77 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/* HEADER -----------------------------------------------*/
-.header {
-    display: flex;
-    padding-bottom: 15px;
+* {
+    scroll-behavior: smooth;
+} 
+
+/* NAVBAR -----------------------------------------------*/
+.navbar {
+    background-color: #36b13c;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
     text-align: center;
-}
-
-.header > div{
-    margin-right: 15px;
-}
-
-.date p{
+    padding: 14px 16px;
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    border: 5px solid #36b13c;
-    font-size: 30px;
-    background-color: #36b13c;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 20px;
 }
 
-.link-task p{
-    font-family: 'Open Sans', sans-serif;
-    border: 5px solid #36b13c;
-    font-size: 30px;
-    background-color: #36b13c;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
 
-.link-annotation p{
-    font-family: 'Open Sans', sans-serif;
-    border: 5px solid #36b13c;
-    font-size: 30px;
-    background-color: #36b13c;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.link-calendar p{
-    font-family: 'Open Sans', sans-serif;
-    border: 5px solid #36b13c;
-    font-size: 30px;
-    background-color: #36b13c;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.link-contato p{
-    font-family: 'Open Sans', sans-serif;
-    border: 5px solid #36b13c;
-    font-size: 30px;
-    background-color: #36b13c;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.time p{
-    font-family: 'Open Sans', sans-serif;
-    border: 5px solid #36b13c;
-    font-size: 30px;
-    background-color: #36b13c;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
+/* LOGO -----------------------------------------------*/
 .logo{
     border-color: black;
     margin-left: 400px;
     margin-right: 50px;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    padding-bottom: 110px;
 }
+
 /* FLEX-CONTAINER -----------------------------------------------*/
 
 .flex-container{
@@ -85,9 +50,11 @@
     margin: 5px;
     width: 100%;
     border-radius: 8px;
+}
+.tasks{
+    background-color: #36b13c;
     border: 3px solid #36b13c;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #36b13c;
 }
 .tasks h2{
     text-align: center;
@@ -122,6 +89,11 @@
     font-size: 18px;
     padding-top: 50px;
 
+}
+.annotation{
+    background-color: #36b13c;
+    border: 3px solid #36b13c;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .annotation-text p{
