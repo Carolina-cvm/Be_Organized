@@ -13,38 +13,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <!--TEM OUTRA LISTA-->
-        <ul class="navbar" id="home">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#link-task">Tasks</a></li>
-            <li><a href="#link-annotation">Annotation</a></li>
-            <li><a href="#link-calendar">Calendar</a></li>
-            <li><a href="#link-contato">Contato</a></li>
-        </ul>
-        <div class="header">
-            <div class="link-task">
-                <p>Tasks</p>
-            </div>
-            <div class="link-annotation">
-                <p>Annotation</p>
-            </div>
-            <div class="link-calendar">
-                <p>Calendar</p>
-            </div>
-            <div class="link-contato">
-                <p>Contato</p>
-            </div>
-            <div class="time">
-                <p id="current_time"></p>
-            </div>
-            <div class="date">
-                <p id="current_date"></p>
-            </div>
-        </div>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#link-task">Tasks</a>
+            <a href="#link-annotation">Annotation</a>
+            <a href="#link-calendar">Calendar</a>
+            <a href="#link-contato">Contato</a>
+            <a id="current_time"></a>
+            <a id="current_date"></a>
+          </div>
         <div class="logo">
             <img src="./Imagens/BeOrganized.png" width="550" height="110px">
         </div>
-        <div class="flex-container">
+        <div class="flex-container" id="link-task">
             <div class="tasks">
                 <div class="to-do">
                     <div class="title-flex-container">
@@ -60,12 +41,13 @@
                 </div>
             </div>
             <div class="annotation-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus est, bibendum imperdiet justo ut, mattis rutrum leo. Proin eleifend vulputate purus ut iaculis. Nullam facilisis vel augue ut blandit. Sed quis ultrices mauris, non faucibus neque. Nulla in sem ac augue dictum cursus. Etiam nec mauris vulputate, iaculis lorem vel, euismod risus. Nunc ut ultrices nisl, nec sollicitudin mi. Etiam ut nisl a nunc commodo congue. Maecenas a nisi a diam eleifend pretium. Fusce quis orci nulla.</p>
+                <p>A check-list helps ensure the completion of all necessary tasks, preventing anything from being forgotten or overlooked. Additionally, it provides a systematic and organized approach, allowing tasks to be performed more efficiently and effectively. In summary, it is a valuable tool for enhancing productivity, quality, and reliability of tasks and processes. This is a space for you to create your check-list.</p>
             </div>
         </div>
-        <div class="flex-container">
+        
+        <div class="flex-container" id="link-annotation">
             <div class="tasks-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus est, bibendum imperdiet justo ut, mattis rutrum leo. Proin eleifend vulputate purus ut iaculis. Nullam facilisis vel augue ut blandit. Sed quis ultrices mauris, non faucibus neque. Nulla in sem ac augue dictum cursus. Etiam nec mauris vulputate, iaculis lorem vel, euismod risus. Nunc ut ultrices nisl, nec sollicitudin mi. Etiam ut nisl a nunc commodo congue. Maecenas a nisi a diam eleifend pretium. Fusce quis orci nulla. </p>
+                <p>Taking notes helps to organize and prioritize tasks, ensuring that nothing is forgotten, while also providing mental clarity by freeing up space in the mind to focus on ongoing activities. Notes also enable tracking progress, celebrating achievements, and identifying areas that require more attention. By reviewing the notes, it is possible to maintain focus and productivity, avoiding distractions. This is a space for you to jot down your notes.</p>
             </div>
             <div class="annotation">
                 <h2>My annotations</h2>
@@ -74,13 +56,13 @@
                 <textarea name="myTextarea" placeholder="What do you need to write down?" cols="70" rows="3" minlength="0" maxlength="500" required></textarea>
             </div>
         </div>
-        <div class="calendar">
+        <div class="calendar" id="link-calendar">
             <iframe src="calendar/index.html" title="Calendar"></iframe>
         </div>
 
         <script src="script.js"></script>
 
-        <div class="footer" id="contato">
+        <div class="footer" id="link-contato">
             <footer>
                 <h2><i class="fa-solid fa-user"></i> Carolina Martins</h2>
                 <p><i class="fa-solid fa-graduation-cap"></i> Bacharelado em Engenharia de Software - PUCPR</p>
