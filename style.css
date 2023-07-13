@@ -12,7 +12,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    margin-bottom: 20px;
 }
   
 .navbar a {
@@ -20,12 +19,19 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 25px;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
+.navbar a:hover{
+    background-color: white;
+}
+
+#current_time:hover, #current_date:hover{
+    background-color: #36b13c !important;
+}
 
 /* LOGO -----------------------------------------------*/
 .logo{
@@ -42,32 +48,43 @@
 .flex-container{
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 100px;
 }
-
 .flex-container > div {
     padding: 10px 0px 30px 0px;
     margin: 5px;
     width: 100%;
     border-radius: 8px;
 }
+
+.title-flex-container p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
 .tasks{
     background-color: #36b13c;
     border: 3px solid #36b13c;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.tasks h2{
+.tasks p{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     width: 100%;
     margin-left: 50px;
 }
-
-.annotation h2{
+.tasks-text p{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    font-size: 18px;
+    padding-top: 50px;
+    text-align: justify;
+}
+.annotation p{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
 }
-
 .annotation textarea{
     margin-left: 35px;
     margin-bottom: 15px;
@@ -82,27 +99,21 @@
     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
     outline: none;
 }
-
-.tasks-text p{
-    font-family: 'Poppins', sans-serif;
-    margin: 20px;
-    font-size: 18px;
-    padding-top: 50px;
-
-}
 .annotation{
     background-color: #36b13c;
     border: 3px solid #36b13c;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .annotation-text p{
     font-family: 'Poppins', sans-serif;
     margin: 20px;
     font-size: 18px;
     padding-top: 40px;
+    text-align: justify;
 }
-
+b{
+    color: #36b13c;
+}
 /*----TO DO LIST-----------------------------------------------------------------*/
 
 button {
@@ -175,7 +186,7 @@ ul {
     background-color: lightgray;
     border-radius: 10px;
     display: flex;
-    box-shadow: 6px 5px 10px 0px grey;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
   
 .divLi {
@@ -183,7 +194,7 @@ ul {
     padding: 10px;
     background: lightgray;
     border-radius: 10px;
-    box-shadow: 6px 5px 10px 0px grey;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     align-items: center;
 }
@@ -220,7 +231,6 @@ li {
     margin-bottom: 15px;
     margin-left: 70px;
 }
-
 iframe{
     width: 550px;
     height: 550px;
@@ -236,20 +246,16 @@ iframe{
     background-color: #36b13c;
     color: black;
     text-decoration: none;
-    font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    
 }
 .footer p{
     color: black;
     text-decoration: none;
-    font-weight: bold;
     font-size: 20px;
 }
 .footer a {
     color: black;
     text-decoration: none;
-    font-weight: bold;
     font-size: 20px;
 }
 .footer a:hover{
