@@ -15,6 +15,7 @@
     <body>
         <div class="navbar">
             <a href="#home">Home</a>
+            <a href="#about">About</a>
             <a href="#link-task">Tasks</a>
             <a href="#link-annotation">Annotation</a>
             <a href="#link-calendar">Calendar</a>
@@ -24,6 +25,11 @@
         </div>
         <div class="logo">
             <img src="./Imagens/BeOrganized.png" width="750" height="200px">
+        </div>
+        <hr>
+        <div class="about" id="about">
+            <p><b>What is it about?</b></p>
+            <p>The purpose of this website is to assist users in becoming more organized and productive in their daily activities. Through the provision of customizable checklists, space for notes, and an integrated calendar, the site offers a comprehensive solution for personal organization. Users can create their own task lists, record important notes, and plan their time using the calendar. This combination of features provides a centralized platform for activity management, enabling users to stay focused, track their progress, and achieve greater efficiency in task completion.<i> Make good use of it!</i></p>
         </div>
         <div class="flex-container" id="link-task">
             <div class="tasks">
@@ -55,10 +61,14 @@
                 <textarea name="myTextarea" placeholder="What do you need to write down?" cols="70" rows="3" minlength="0" maxlength="500" required></textarea>
             </div>
         </div>
-        <div class="calendar" id="link-calendar">
-            <iframe src="calendar/index.html" title="Calendar"></iframe>
+        <div class="flex-container">
+            <div class="calendar" id="link-calendar">
+                <iframe src="calendar/index.html" title="Calendar"></iframe>
+            </div>
+            <div class="calendar-text">
+                <p>Having a calendar helps in organizing and planning activities and appointments in advance, ensuring a clear view of available time. Additionally, it allows tracking important deadlines and dates, avoiding forgetfulness and delays.<b> This is a calendar to assist you in managing your commitments.</b></p>
+            </div>
         </div>
-
         <script src="script.js"></script>
 
         <div class="footer" id="link-contato">
