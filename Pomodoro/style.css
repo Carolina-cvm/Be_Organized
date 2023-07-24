@@ -1,288 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-* {
-    scroll-behavior: smooth;
-} 
-
-/* NAVBAR -----------------------------------------------*/
-.navbar {
-    background-color: #36b13c;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 5px;
-}
-  
-.navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
 }
 
-.navbar a:hover{
-    background-color: white;
+body * {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #36b13c;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.card-header h1 {
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+}
+.card-header-buttons {
+  display: flex;
+  justify-content: stretch;
+  gap: 10px;
+  padding: 4px;
+}
+.card-header-buttons button {
+  padding: 8px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.card-header-buttons .active {
+  background-color: black;
+  color: white;
 }
 
-#current_time:hover, #current_date:hover{
-    background-color: #36b13c !important;
+/* card body */
+.card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-
-/* ABOUT -----------------------------------------------*/
-
-.about p{
-    font-family: 'Poppins', sans-serif;
-    color: #36b13c;
-    font-size: 26px;
-    text-align: center;
+.progress-bar {
+  height: 180px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
 }
-.about{
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 50px;
-    padding-top: 30px;
+.progress-bar-inner {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #36b13c;
+  border-radius: 50%;
 }
-
-/* LOGO -----------------------------------------------*/
-.logo{
-    border-color: black;
-    margin-left: 300px;
-    margin-right: 50px;
-    margin-bottom: 200px;
-    margin-top: 200px;
-    padding-bottom: 110px;
+.progress-bar-inner h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
 }
-
-/* FLEX-CONTAINER -----------------------------------------------*/
-
-.flex-container{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
-    padding-top: 25px;
+/* card footer */
+.card-footer {
+  display: flex;
+  justify-content: stretch;
+  gap: 20px;
+  padding: 10px;
 }
-.flex-container > div {
-    padding: 10px 0px 30px 0px;
-    margin: 5px;
-    width: 100%;
-    border-radius: 8px;
+.card-footer button {
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: #fbc107;
+  color: white;
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
 }
-
-.title-flex-container p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+.card-footer .btn-sucess {
+  background-color: #3e8914;
 }
-
-.tasks{
-    background-color: #36b13c;
-    border: 3px solid #36b13c;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.card-footer .btn-danger {
+  background-color: #f40000;
 }
-.tasks p{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-    margin-left: 50px;
-}
-.tasks-text p{
-    font-family: 'Poppins', sans-serif;
-    margin: 20px;
-    font-size: 18px;
-    padding-top: 50px;
-    text-align: justify;
-}
-.annotation p{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-}
-.annotation textarea{
-    margin-left: 35px;
-    margin-bottom: 15px;
-    font-family: 'Poppins', sans-serif;
-    padding: 7px;
-    font-size: 16px;
-    border-width: 0px;
-    background-color: #FFFFFF;
-    color: #000000;
-    border-style: solid;
-    border-radius: 3px;
-    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
-    outline: none;
-}
-.annotation{
-    background-color: #36b13c;
-    border: 3px solid #36b13c;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.annotation-text p{
-    font-family: 'Poppins', sans-serif;
-    margin: 20px;
-    font-size: 18px;
-    padding-top: 40px;
-    text-align: justify;
-}
-b{
-    color: #36b13c;
-}
-
-/*----TO DO LIST-----------------------------------------------------------------*/
-
-button {
-    width: 10%;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-}
-
-.title-flex-container{
-    display: flex;
-    align-items: center;
-}
-
-.title-flex-container button {
-    background-color: #e00000;
-    color: white;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 5px;
-    margin-left: 45px;
-    margin-right: 7px;
-} 
-  
-.bx-plus {
-    font-size: 30px;
-    background-color: #36b13c;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 5px;
-    color: white;
-    margin-left: 3px;
-}
-
-.divLi i {
-    font-size: 20px;
-    background-color: #e00000;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    color: white;
-}
-
-ul {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 20px;
-}
-  
-.to-do {
-    margin-left: 50px;
-    margin-right: 60px;
-    align-self: auto;
-}
-  
-.textInsert {
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
-    width: 100%;
-    font-size: 15px;
-}
-  
-.divInsert {
-    padding: 10px;
-    background-color: lightgray;
-    border-radius: 10px;
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-  
-.divLi {
-    margin-top: 20px;
-    padding: 10px;
-    background: lightgray;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    align-items: center;
-}
-  
-.divLi span {
-    width: 100%;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-}
-  
-.divLi input {
-    width: 10%;
-    outline: none;
-    accent-color: currentcolor;
-}
-  
-li {
-    list-style-type: none;
-}
-
-.line-through {
-    text-decoration: line-through;
-}
-  
-@media (max-width: 775px) {
-    input {
-      width: 70%;
-    }
-}
-/*----CALENDAR-----------------------------------------------------------------*/
-.calendar{
-    text-align: center;
-    padding-top: 25px;
-}
-iframe{
-    width: 550px;
-    height: 550px;
-    border: none;
-}
-.calendar-text p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 19px;
-    padding-top: 120px;
-    text-align: justify;
-    margin-right: 18px;
-    color: #000000;
-
-}
-
-/*----FOOTER-----------------------------------------------------------------*/
-.footer{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: rgb(27, 28, 27) 0px 5px 15px;
-    background-color: #36b13c;
-    color: black;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-}
-.footer p{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-.footer a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-.footer a:hover{
-    text-decoration: underline;
+.card-footer button:hover {
+  background-color: black;
 }
