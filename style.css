@@ -262,6 +262,20 @@ iframe{
 
 }
 
+/*----CALENDAR-----------------------------------------------------------------*/
+.pomodoro{
+    text-align: center;
+}
+.pomodoro-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding-top: 120px;
+    text-align: justify;
+    margin-left: 25px;
+    color: #000000;
+
+}
+
 /*----FOOTER-----------------------------------------------------------------*/
 .footer{
     text-align: center;
