@@ -7,14 +7,20 @@
 </div>
 
 <h3>✅ Check-list</h3>
-<h3>✅ Annotation</h3>
-<h3>✅ Calendar</h3>
-<h3>✅ Pomodoro Timer</h3>
+<h4>A check-list helps ensure the completion of all necessary tasks, preventing anything from being forgotten or overlooked. In summary, it is a valuable tool for enhancing productivity, quality, and reliability of tasks and processes.</h4>
 
-Used repositories and credits <br>
+<h3>✅ Annotation</h3>
+<h4>Taking notes helps to organize and prioritize tasks, ensuring that nothing is forgotten, while also providing mental clarity by freeing up space in the mind to focus on ongoing activities.</h4>
+<h3>✅ Calendar</h3>
+<h4>Having a calendar helps in organizing and planning activities and appointments in advance, ensuring a clear view of available time.</h4>
+<h3>✅ Pomodoro Timer</h3>
+<h4>The Pomodoro method is a time management technique that involves dividing work into short and focused time intervals, followed by brief breaks. </h4>
+<hr>
+<h4>Used repositories and credits</h4>
+
 Check list by WilliamDosSantos [go to repository](https://github.com/WilliamDosSantos/To-Do-List) <br>
-Pomodoro Timer by JrDevCJ [go to repository](https://github.com/JrDevCJ/javascript-tutorial/tree/main/pomodoro-app) <br>
-Calendar by CodingNepal [go to video on youtube](https://www.youtube.com/watch?v=Z1BGAivZRlE&t=217s)
+Calendar by CodingNepal [go to video on youtube](https://www.youtube.com/watch?v=Z1BGAivZRlE&t=217s) <br>
+Pomodoro Timer by JrDevCJ [go to repository](https://github.com/JrDevCJ/javascript-tutorial/tree/main/pomodoro-app)
 
 
 <h3 align="center">Feito com ❤️ </h3>
