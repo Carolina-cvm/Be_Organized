@@ -11,6 +11,10 @@
 <h3>✅ Calendar</h3>
 <h3>✅ Pomodoro Timer</h3>
 
+Used repositories and credits <br>
+Check list by WilliamDosSantos [go to repository](https://github.com/WilliamDosSantos/To-Do-List) <br>
+Pomodoro Timer by JrDevCJ [go to repository](https://github.com/JrDevCJ/javascript-tutorial/tree/main/pomodoro-app) <br>
+Calendar by CodingNepal [go to video on youtube](https://www.youtube.com/watch?v=Z1BGAivZRlE&t=217s)
 
 
 <h3 align="center">Feito com ❤️ </h3>
