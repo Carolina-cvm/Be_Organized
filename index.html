@@ -6,7 +6,7 @@
         <meta name="keywords" content="HTML, CSS">
         <meta name="author" content="Carolina Martins">
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="./Imagens/logo.png">
+        <!--<link rel="icon" type="image/x-icon" href="./Imagens/myicon.png"> -->
         <script src="https://kit.fontawesome.com/6f1061abed.js" crossorigin="anonymous"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
@@ -20,11 +20,11 @@
             <a href="#link-annotation">Annotation</a>
             <a href="#link-calendar">Calendar</a>
             <a href="#link-pomodoro">Pomodoro Timer</a>
-            <a href="#link-contato">Contact</a>
+            <a href="#link-contato">Contato</a>
             <a class="this" id="current_time"></a>
             <a class="that" id="current_date"></a>
         </div>
-        <div class="logo" id="home">
+        <div class="logo">
             <img src="./Imagens/BeOrganized.png" width="750" height="200px">
         </div>
         <hr>
@@ -64,7 +64,7 @@
         </div>
         <div class="flex-container">
             <div class="calendar" id="link-calendar">
-                <iframe src="./Calendar/index.html" title="Calendar"></iframe>
+                <iframe src="calendar/index.html" title="Calendar"></iframe>
             </div>
             <div class="calendar-text">
                 <p>Having a calendar helps in organizing and planning activities and appointments in advance, ensuring a clear view of available time. Additionally, it allows tracking important deadlines and dates, avoiding forgetfulness and delays.<b> This is a calendar to assist you in managing your commitments.</b></p>
@@ -75,19 +75,28 @@
                 <p>The Pomodoro method is a time management technique that involves dividing work into short and focused time intervals, followed by brief breaks. By breaking the work into smaller chunks, the method helps to avoid procrastination and increase efficiency in task completion. It also aids in maintaining focus during work intervals, as tasks are performed in manageable and short time blocks.<b> This is a Pomodoro Timer for you to manage your time and tasks effectively</b>.</p>
             </div>
             <div class="pomodoro" id="link-pomodoro">
-                <iframe src="./Pomodoro/index.html" title="Pomodoro"></iframe>
+                <iframe src="pomodoro/index.html" title="Pomodoro"></iframe>
             </div>
         </div>
         <script src="script.js"></script>
 
         <div class="footer" id="link-contato">
             <footer>
+                <h2>Carolina Martins</h2>
+                <div class="teste">
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:carolina.martins3@pucpr.edu.br"> Email</a></p>
+                    <p><i class="fa-brands fa-github"></i><a href="https://github.com/Carolina-cvm" target="_blank"> Github</a></p>
+                    <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/carolina-cvm/" target="_blank"> LinkedIn</a></p>
+                </div>
+                <h4>© 2023 Carolina Martins.</h4>
+                <!--
                 <p><i class="fa-solid fa-user"></i> Carolina Martins</p>
                 <p><i class="fa-solid fa-graduation-cap"></i> Bacharelado em Engenharia de Software - PUCPR</p>
                 <p><i class="fa-solid fa-envelope"></i> carolina.martins3@pucpr.edu.br</p>
                 <p><i class="fa-brands fa-github"></i><a href="https://github.com/Carolina-cvm" target="_blank"> Github/Carolina-cvm</a></p>
                 <p><i class="fa-solid fa-location-dot"></i> Curitiba - PR</p>
                 <p><i class="fa-regular fa-calendar-days"></i> 2023</p>
+                -->
             </footer>
         </div>
     </body>
