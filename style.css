@@ -306,3 +306,10 @@ iframe{
     text-decoration: none;
     color: black;
 }
+.social{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
