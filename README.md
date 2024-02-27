@@ -19,9 +19,9 @@
 <hr>
 <h4>Used repositories and credits</h4>
 
-Check list by WilliamDosSantos [go to repository](https://github.com/WilliamDosSantos/To-Do-List) <br>
-Calendar by CodingNepal [go to video on youtube](https://www.youtube.com/watch?v=Z1BGAivZRlE&t=217s) <br>
-Pomodoro Timer by JrDevCJ [go to repository](https://github.com/JrDevCJ/javascript-tutorial/tree/main/pomodoro-app)
+• Check list by WilliamDosSantos [go to repository](https://github.com/WilliamDosSantos/To-Do-List) <br>
+• Calendar by CodingNepal [go to video on youtube](https://www.youtube.com/watch?v=Z1BGAivZRlE&t=217s) <br>
+• Pomodoro Timer by JrDevCJ [go to repository](https://github.com/JrDevCJ/javascript-tutorial/tree/main/pomodoro-app)
 
 
 <h3 align="center">Feito com ❤️ </h3>
