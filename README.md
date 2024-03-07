@@ -24,4 +24,4 @@
 • Pomodoro Timer by JrDevCJ [go to repository](https://github.com/JrDevCJ/javascript-tutorial/tree/main/pomodoro-app)
 
 
-<h3 align="center">Feito com ❤️ </h3>
+<h3 align="center">Made with ❤️ </h3>
