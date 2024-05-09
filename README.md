@@ -4,7 +4,7 @@
 <br>
 <p align="center"><a href="https://carolina-cvm.github.io/Be_Organized/" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white"/></a></p>
 <div align="justify">
-<h3>The purpose of this project is to assist users in becoming more organized and productive in their daily activities. Through the provision of customizable checklists, space for notes, and an integrated calendar, the site offers a comprehensive solution for personal organization. Users can create their own task lists, record important notes, and plan their time using the calendar. This combination of features provides a centralized platform for activity management, enabling users to stay focused, track their progress, and achieve greater efficiency in task completion. <i> Make good use of it!</i></h3>
+<h3>The purpose of this project is to assist users in becoming more organized and productive in their daily activities. Through the provision of customizable checklists, space for notes, and an integrated calendar, the site offers a comprehensive solution for personal organization. Users can create their own task lists, record important notes, and plan their time using the calendar. This combination of features provides a centralized platform for activity management, enabling users to stay focused, track their progress, and achieve greater efficiency in task completion. <i> Make good use of it!!!</i></h3>
 </div>
 
 <h3>✅ Check-list</h3>
